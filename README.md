@@ -1,4 +1,3 @@
-# Personal_Portifolio
 # Portfólio Pessoal - Adalberto Ribeiro
 
 Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, experiências e projetos. O site é totalmente estático, construído com tecnologias web fundamentais e hospedado na Vercel.
