@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import SimpleHeader from './components/SimpleHeader';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
@@ -10,6 +11,7 @@ function App() {
   return (
     <Router>
       <div>
+        <SimpleHeader />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<Sobre />} />
