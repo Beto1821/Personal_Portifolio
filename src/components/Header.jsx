@@ -1,44 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Header = () => {
-  const closeMenu = () => {
-    const toggle = document.getElementById('toggle');
-    if (toggle) {
-      toggle.checked = false;
-    }
-  };
-
   return (
     <header className="header-container">
-      {/* Menu Hambúrguer */}
-      <div className="checkbox-container">
-        <div className="checkbox-wrapper">
-          <input type="checkbox" id="toggle" />
-          <label className="checkbox" htmlFor="toggle">
-            <div className="trace"></div>
-            <div className="trace"></div>
-            <div className="trace"></div>
-          </label>
-          <div className="menu"></div>
-          <nav className="menu-items">
-            <ul>
-              <li>
-                <Link to="/" onClick={closeMenu}>Home</Link>
-              </li>
-              <li>
-                <Link to="/sobre" onClick={closeMenu}>Sobre</Link>
-              </li>
-              <li>
-                <Link to="/projetos" onClick={closeMenu}>Projetos</Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-      
       {/* Conteúdo Principal */}
       <div className="header-content">
+        <img 
+          src="/eu.png" 
+          alt="Adalberto Ribeiro" 
+          className="profile-photo"
+        />
         <h1>Adalberto Ribeiro</h1>
         <h2>Dev Full Stack</h2>
         <div className="social-media">
