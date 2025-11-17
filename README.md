@@ -1,40 +1,18 @@
-# Portfólio Pessoal - Adalberto Ribeiro
+# Adalberto Ribeiro - Desenvolvedor Full-Stack
 
-Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, experiências e projetos. O site é totalmente estático, construído com tecnologias web fundamentais e hospedado na Vercel.
+Olá! Sou Controlador de Qualidade em desenvolvimento de IA na Scale AI, com experiência em desenvolvimento Full-Stack (JavaScript, Node.js, React) e Análise de Dados (Python).
 
-**[➡️ Ver Demo Ao Vivo](https://personal-portifolio-theta.vercel.app/)**
+Este repositório contém o código-fonte do meu portfólio pessoal, onde apresento minhas habilidades e projetos.
 
-## ✨ Funcionalidades
+**[➡️ Visite meu Portfólio](https://personal-portifolio-theta.vercel.app/)**
 
-- **Design Moderno:** Interface limpa com animações em CSS e um menu hambúrguer funcional.
-- **Componentizado com JS:** O cabeçalho e o rodapé são carregados dinamicamente com JavaScript, evitando repetição de código e facilitando a manutenção.
-- **Estrutura Multi-página:** Seções separadas para Home, Sobre e Projetos.
-- **Responsivo:** Adaptado para uma boa experiência de visualização em diferentes tamanhos de tela.
+## 🛠️ Tecnologias
 
-## 🛠️ Tecnologias Utilizadas
-
-O projeto foi construído utilizando as seguintes tecnologias:
-
-- **HTML5:** Para a estrutura semântica do conteúdo.
-- **CSS3:** Para estilização, animações e layout responsivo.
-- **JavaScript (Vanilla):** Para carregar componentes dinamicamente e adicionar interatividade.
-- **Vercel:** Para hospedagem e deploy contínuo.
-
-## 🚀 Executando o Projeto Localmente
-
-Para executar este projeto em sua máquina local, siga os passos abaixo.
-
-1.  Clone o repositório:
-    ```bash
-    git clone https://github.com/Beto1821/personal_portifolio.git
-    ```
-
-2.  Navegue até o diretório do projeto:
-    ```bash
-    cd personal_portifolio
-    ```
-
-3.  Abra o arquivo `index.html` no seu navegador de preferência.
+- **Front-end:** HTML5, CSS3, JavaScript, React
+- **Back-end:** Node.js, Express.js
+- **Banco de Dados:** SQL, NoSQL
+- **Cloud:** AWS Certified Cloud Practitioner
+- **Hospedagem:** Vercel
 
 ## 📬 Contato
 
