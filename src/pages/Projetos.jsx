@@ -47,6 +47,13 @@ const Projetos = () => {
       <main className="container">
         <div className="card-container">
           <div className="card-text">
+            <div className="page-image-container">
+              <img 
+                src="/old.png" 
+                alt="Projetos" 
+                className="page-image"
+              />
+            </div>
             <h2>Meus Projetos</h2>
             
             {projetos.map((projeto, index) => (

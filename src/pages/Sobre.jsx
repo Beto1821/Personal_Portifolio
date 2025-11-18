@@ -8,6 +8,13 @@ const Sobre = () => {
       <main className="container">
         <div className="card-container">
           <div className="card-text">
+            <div className="page-image-container">
+              <img 
+                src="/eu.png" 
+                alt="Adalberto Ribeiro" 
+                className="page-image"
+              />
+            </div>
             <h2>Sobre Mim</h2>
             <p>
               Controlador de Qualidade em desenvolvimento de IA na Scale AI e gerente comercial na Atual Informática. Inglês Avançado.

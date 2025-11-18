@@ -6,7 +6,7 @@ const Header = () => {
       {/* Conteúdo Principal */}
       <div className="header-content">
         <img 
-          src="/eu.png" 
+          src="/futuro.png" 
           alt="Adalberto Ribeiro" 
           className="profile-photo"
         />

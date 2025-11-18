@@ -368,6 +368,29 @@ h3 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.page-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  animation: fadeIn 1s ease-in;
+}
+
+.page-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid rgba(40, 171, 169, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.page-image:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  border-color: rgba(40, 171, 169, 0.6);
+}
+
 .card-text:hover {
   transform: translateY(-5px);
   box-shadow: 0 25px 70px rgba(0, 0, 0, 0.2);
@@ -585,6 +608,11 @@ h3 {
     padding: 2rem 1.5rem;
   }
 
+  .page-image {
+    width: 180px;
+    height: 180px;
+  }
+
   .card-text h2 {
     font-size: 1.8rem;
   }
@@ -677,6 +705,11 @@ h3 {
 
   .card-text {
     padding: 1.5rem 1rem;
+  }
+
+  .page-image {
+    width: 150px;
+    height: 150px;
   }
 
   .card-text h2 {
