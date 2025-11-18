@@ -42,6 +42,24 @@ body {
   overflow: hidden;
 }
 
+.home-page {
+  position: relative;
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.header * {
+  pointer-events: auto;
+}
+
 .header-content {
   position: relative;
   z-index: 1;
@@ -512,38 +530,37 @@ h3 {
   .header-container {
     flex-direction: column;
     justify-content: center;
-    padding: 15% 5% 10% 5%;
+    padding: 80px 5% 40px 5%;
     min-height: 100vh;
   }
 
   .header-content {
     max-width: 100%;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 0;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1.5rem;
   }
 
   .header-container::before {
-    position: absolute;
-    top: auto;
-    bottom: 10%;
-    right: 50%;
-    transform: translateX(50%);
-    width: 70%;
-    max-width: 280px;
-    height: 30vh;
-    max-height: 280px;
-    opacity: 0.35;
-    background-position: center bottom;
+    display: none;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    letter-spacing: 0.1em;
     text-align: center;
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.15em;
     text-align: center;
+    margin-bottom: 1.5rem;
   }
 
   .social-media {
@@ -555,7 +572,9 @@ h3 {
 
   .social-media a {
     width: 100%;
-    max-width: 300px;
+    max-width: 280px;
+    padding: 0.9rem 2rem;
+    font-size: 0.95rem;
   }
 
   .card-container {
@@ -576,6 +595,100 @@ h3 {
 
   .card-text p {
     font-size: 1rem;
+  }
+
+  .card-text ul li {
+    font-size: 0.95rem;
+    padding: 0.6rem 0;
+    padding-left: 1.5rem;
+  }
+
+  .card-text > div {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .menu-items ul li a {
+    font-size: 1.8rem;
+    padding: 15px;
+    letter-spacing: 2px;
+  }
+
+  .checkbox {
+    height: 80px;
+    width: 80px;
+  }
+
+  .checkbox .trace {
+    width: 40px;
+  }
+
+  .checkbox .trace:nth-child(1) {
+    top: 20px;
+  }
+
+  .checkbox .trace:nth-child(2) {
+    top: 35px;
+  }
+
+  .checkbox .trace:nth-child(3) {
+    top: 50px;
+  }
+
+  #toggle:checked + .checkbox .trace:nth-child(1) {
+    top: 35px;
+  }
+
+  #toggle:checked + .checkbox .trace:nth-child(3) {
+    top: 35px;
+  }
+
+  .container {
+    padding: 2rem 1rem;
+  }
+
+  .footer {
+    font-size: 0.85rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 0.95rem;
+  }
+
+  .social-media a {
+    max-width: 240px;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .card-text {
+    padding: 1.5rem 1rem;
+  }
+
+  .card-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .card-text h3 {
+    font-size: 1.1rem;
+  }
+
+  .card-text p {
+    font-size: 0.95rem;
   }
 
   .menu-items ul li a {
