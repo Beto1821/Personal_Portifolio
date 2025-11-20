@@ -7,7 +7,7 @@ const Projetos = () => {
       titulo: 'Hotel Management App',
       descricao: 'Aplicação para gerenciamento de hotéis.',
       github: 'https://github.com/Beto1821/hotel-management-app',
-      demo: null
+      demo: 'https://plataformahotel.online/login'
     },
     {
       titulo: 'Monitoring Analyst Test',
